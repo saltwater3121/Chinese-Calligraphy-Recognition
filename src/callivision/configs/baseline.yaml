@@ -1,0 +1,18 @@
+seed: 42
+device: cuda
+
+data:
+  root: data
+  img_size: 224
+  batch_size: 32
+  num_workers: 2
+
+model:
+  name: resnet18
+  num_classes: 10
+
+train:
+  epochs: 5
+  lr: 0.0003
+  weight_decay: 0.01
+  save_dir: runs/baseline
