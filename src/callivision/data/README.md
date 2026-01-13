@@ -15,3 +15,4 @@ Each subfolder corresponds to one Chinese character class.
 
 Due to dataset size and licensing constraints, raw data is not included.
 
+<!-- initial dataset documentation -->
